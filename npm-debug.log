@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'cache', 'clear' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/alex/.npmrc. (matches userconfig)
+5 silly ls normalized .
+6 silly gentlyRm /home/alex/.npm/_cacache is being purged
+7 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/_cacache
+8 silly gentlyRm /home/alex/.npm/_locks is being purged
+9 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/_locks
+10 silly gentlyRm /home/alex/.npm/anonymous-cli-metrics.json is being purged
+11 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/anonymous-cli-metrics.json
+12 silly gentlyRm /home/alex/.npm/axios is being purged
+13 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/axios
+14 silly gentlyRm /home/alex/.npm/nodejs is being purged
+15 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/nodejs
+16 silly gentlyRm /home/alex/.npm/npm is being purged
+17 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/npm
+18 silly gentlyRm /home/alex/.npm/registry.npmjs.org is being purged
+19 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/registry.npmjs.org
+20 silly gentlyRm /home/alex/.npm/vue is being purged
+21 verbose gentlyRm don't care about contents; nuking /home/alex/.npm/vue
+22 silly vacuum-fs purging /home/alex/.npm/_cacache
+23 silly vacuum-fs purging /home/alex/.npm/_locks
+24 silly vacuum-fs purging /home/alex/.npm/anonymous-cli-metrics.json
+25 silly vacuum-fs purging /home/alex/.npm/axios
+26 silly vacuum-fs purging /home/alex/.npm/nodejs
+27 silly vacuum-fs purging /home/alex/.npm/npm
+28 silly vacuum-fs purging /home/alex/.npm/registry.npmjs.org
+29 silly vacuum-fs purging /home/alex/.npm/vue
+30 silly vacuum-fs quitting because other entries in /home/alex/.npm
+31 silly vacuum-fs quitting because other entries in /home/alex/.npm
+32 silly vacuum-fs quitting because other entries in /home/alex/.npm
+33 silly vacuum-fs quitting because other entries in /home/alex/.npm
+34 silly vacuum-fs quitting because other entries in /home/alex/.npm
+35 silly vacuum-fs quitting because other entries in /home/alex/.npm
+36 silly vacuum-fs quitting because other entries in /home/alex/.npm
+37 verbose stack Error: EACCES: permission denied, rmdir '/home/alex/.npm/_cacache/content-v2'
+38 verbose cwd /home/alex/BeCode/learn-react
+39 error Linux 4.15.0-47-generic
+40 error argv "/usr/bin/node" "/usr/bin/npm" "cache" "clear"
+41 error node v8.10.0
+42 error npm  v3.5.2
+43 error path /home/alex/.npm/_cacache/content-v2
+44 error code EACCES
+45 error errno -13
+46 error syscall rmdir
+47 error Error: EACCES: permission denied, rmdir '/home/alex/.npm/_cacache/content-v2'
+47 error  { Error: EACCES: permission denied, rmdir '/home/alex/.npm/_cacache/content-v2'
+47 error   errno: -13,
+47 error   code: 'EACCES',
+47 error   syscall: 'rmdir',
+47 error   path: '/home/alex/.npm/_cacache/content-v2' }
+48 error Please try running this command again as root/Administrator.
+49 verbose exit [ -13, true ]
